@@ -1,4 +1,0 @@
-[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:[m[K In lambda function:
-[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:34:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   34 |             client_->async_send_request(request, [&]([01;35m[Krclcpp::Client<interface::srv::Partol>::SharedFuture future[m[K){
-      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

@@ -1,7 +1,0 @@
-[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:[m[K In lambda function:
-[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:34:124:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K{[m[K’ token
-   34 |             client_->async_send_request(request, [&](rclcpp::Client<interface::srv::Partol>::SharedFuture result_future) ->[01;31m[K{[m[K
-      |                                                                                                                            [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/turtle_client.dir/build.make:63：CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/turtle_client.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2
