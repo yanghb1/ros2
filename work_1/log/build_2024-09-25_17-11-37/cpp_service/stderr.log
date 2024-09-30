@@ -1,0 +1,113 @@
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:[m[K In lambda function:
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:32:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_x[m[K’
+   32 |             request.[01;31m[Ktarget_x[m[K = rand() % 15;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:33:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_y[m[K’
+   33 |             request.[01;31m[Ktarget_y[m[K = rand() % 15;
+      |                     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:1[m[K:
+/opt/ros/foxy/include/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<interface::srv::Partol_Response_<std::allocator<void> > >[m[K’:
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:34:102:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:181:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  181 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:182:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  182 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:184:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  184 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:185:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  185 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:187:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  187 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:188:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  188 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:190:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  190 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:191:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  191 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:193:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  193 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:194:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  194 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:258:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  258 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  333 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  359 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:378:76:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct interface::srv::Partol_Response_<std::allocator<void> >[m[K’
+  378 |   std::map<int64_t, std::tuple<SharedPromise, CallbackType, SharedFuture>> [01;31m[Kpending_requests_[m[K;
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:1[m[K:
+/opt/ros/foxy/include/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<void (TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>::*)(...) const>[m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:51:9:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::function_traits<TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)> >[m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:159:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > > >)> >[m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:356:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<interface::srv::Partol>::SharedFutureWithRequest rclcpp::Client<interface::srv::Partol>::async_send_request<CallbackT, <enumerator> >(rclcpp::Client<interface::srv::Partol>::SharedRequest, CallbackT&&) [with CallbackT = TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K’
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:42:14:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>::*)(...) const[m[K’
+   52 |     typename function_traits<decltype( [01;31m[K&FunctionT::operator()[m[K)>::arguments>::type;
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>::*)(...) const[m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>::*)(...) const[m[K’
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:42:14:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<interface::srv::Partol>::async_send_request(std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >&, TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>)[m[K’
+   42 |             }[01;31m[K)[m[K;
+      |              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:318:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = interface::srv::Partol; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > >; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >][m[K’
+  318 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:318:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interface::srv::Partol][m[K’
+  333 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:330:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<TurtlrCilentNode::TurtlrCilentNode()::<lambda()>::<lambda(...)>, std::function<void(std::shared_future<std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > >)> >[m[K’
+  330 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Partol_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequest rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <enumerator>; ServiceT = interface::srv::Partol][m[K’
+  359 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+make[2]: *** [CMakeFiles/turtle_client.dir/build.make:63：CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/turtle_client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

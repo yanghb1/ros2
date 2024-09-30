@@ -1,0 +1,6 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/mnt/sda2/code/ros2/work_1/src/interface:srv/Partol.srv"
+  ]
+}

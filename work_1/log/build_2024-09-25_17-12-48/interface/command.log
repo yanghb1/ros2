@@ -1,0 +1,4 @@
+Invoking command in '/mnt/sda2/code/ros2/work_1/build/interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/interface -- -j24 -l24
+Invoked command in '/mnt/sda2/code/ros2/work_1/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/interface -- -j24 -l24
+Invoking command in '/mnt/sda2/code/ros2/work_1/build/interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/interface
+Invoked command in '/mnt/sda2/code/ros2/work_1/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/interface

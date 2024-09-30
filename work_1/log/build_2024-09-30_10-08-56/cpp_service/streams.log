@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/mnt/sda2/code/ros2/work_1/build/cpp_service': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/cpp_service -- -j24 -l24
+[0.054s] [ 50%] Built target turtle_client
+[0.054s] [100%] Built target turtle_control
+[0.061s] Invoked command in '/mnt/sda2/code/ros2/work_1/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/cpp_service -- -j24 -l24
+[0.083s] Invoking command in '/mnt/sda2/code/ros2/work_1/build/cpp_service': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/cpp_service
+[0.088s] -- Install configuration: ""
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_control
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_client
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch
+[0.089s] -- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch/demo.launch.py
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.sh
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.dsv
+[0.089s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.bash
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.sh
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.zsh
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.dsv
+[0.090s] -- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.dsv
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/packages/cpp_service
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake
+[0.090s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.xml
+[0.091s] Invoked command in '/mnt/sda2/code/ros2/work_1/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/cpp_service

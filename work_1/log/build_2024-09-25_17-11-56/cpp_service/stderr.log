@@ -1,0 +1,14 @@
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:[m[K In lambda function:
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:32:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_x[m[K’
+   32 |             request.[01;31m[Ktarget_x[m[K = rand() % 15;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:33:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<interface::srv::Partol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_y[m[K’
+   33 |             request.[01;31m[Ktarget_y[m[K = rand() % 15;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:[m[K In lambda function:
+[01m[K/mnt/sda2/code/ros2/work_1/src/cpp_service/src/turtle_client.cpp:34:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |             client_->async_send_request(request, [&]([01;35m[Krclcpp::Client<interface::srv::Partol>::SharedFuture future[m[K){
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/turtle_client.dir/build.make:63：CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/turtle_client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

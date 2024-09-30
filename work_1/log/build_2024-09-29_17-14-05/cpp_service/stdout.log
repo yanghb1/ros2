@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target turtle_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
