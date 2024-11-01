@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/mnt/sda2/code/ros2/work_1/build/cpp_service': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/cpp_service -- -j24 -l24
+[0.064s] [35m[1mScanning dependencies of target turtle_control[0m
+[0.079s] [ 50%] Built target turtle_client
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[3.075s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[3.260s] [100%] Built target turtle_control
+[3.267s] Invoked command in '/mnt/sda2/code/ros2/work_1/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/sda2/code/ros2/work_1/build/cpp_service -- -j24 -l24
+[3.284s] Invoking command in '/mnt/sda2/code/ros2/work_1/build/cpp_service': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/cpp_service
+[3.290s] -- Install configuration: ""
+[3.290s] -- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_control
+[3.292s] -- Set runtime path of "/mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_control" to ""
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_client
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch/demo.launch.py
+[3.293s] -- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch/antion.launch.py
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.sh
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.dsv
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.bash
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.sh
+[3.293s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.zsh
+[3.294s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.dsv
+[3.294s] -- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.dsv
+[3.294s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/packages/cpp_service
+[3.294s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake
+[3.294s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake
+[3.294s] -- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.xml
+[3.295s] Invoked command in '/mnt/sda2/code/ros2/work_1/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/mnt/sda2/code/ros2/work_1/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/sda2/code/ros2/work_1/build/cpp_service

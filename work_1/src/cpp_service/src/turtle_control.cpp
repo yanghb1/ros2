@@ -63,8 +63,6 @@ public:
             }else{
                 response->result = interface::srv::Partol::Response::FAIL;
             }
-                
-
         });
 
         publishr_ = create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);

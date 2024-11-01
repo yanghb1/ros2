@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000448] (cpp_service) JobQueued: {'identifier': 'cpp_service', 'dependencies': OrderedDict([('interface', '/mnt/sda2/code/ros2/work_1/install/interface')])}
+[0.000473] (interface) JobStarted: {'identifier': 'interface'}
+[0.006968] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.007806] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[0.008240] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/sda2/code/ros2/work_1/build/interface', '--', '-j24', '-l24'], 'cwd': '/mnt/sda2/code/ros2/work_1/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lixiang'), ('SSH_CLIENT', '10.121.137.35 59959 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lixiang'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/mnt/sda2/code/ros2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lixiang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '81'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lixiang/.local/bin:~/anaconda3/bin:/home/lixiang/anaconda3/bin:/home/lixiang/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin:/usr/local/cuda-11.0/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/lixiang/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/lixiang/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/mnt/sda2/code/ros2/work_1/build/interface'), ('CUDA_HOME', ':/usr/local/cuda-11.0'), ('CONDA_EXE', '/home/lixiang/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.121.137.35 59959 10.248.16.157 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/lixiang/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.075196] (interface) StdoutLine: {'line': b'[  3%] Built target interface__cpp\n'}
+[0.077585] (interface) StdoutLine: {'line': b'[ 12%] Built target interface__rosidl_generator_c\n'}
+[0.093666] (interface) StdoutLine: {'line': b'[ 22%] Built target interface__rosidl_typesupport_cpp\n'}
+[0.093796] (interface) StdoutLine: {'line': b'[ 32%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[0.094429] (interface) StdoutLine: {'line': b'[ 41%] Built target interface__rosidl_typesupport_c\n'}
+[0.094631] (interface) StdoutLine: {'line': b'[ 51%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[0.096320] (interface) StdoutLine: {'line': b'[ 61%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.099864] (-) TimerEvent: {}
+[0.114731] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[0.126746] (interface) StdoutLine: {'line': b'[ 70%] Built target interface\n'}
+[0.147211] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__py\n'}
+[0.179851] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__python\n'}
+[0.199963] (-) TimerEvent: {}
+[0.204749] (interface) StdoutLine: {'line': b'[ 87%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[0.204884] (interface) StdoutLine: {'line': b'[ 93%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.204958] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.213279] (interface) CommandEnded: {'returncode': 0}
+[0.266398] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[0.281478] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/sda2/code/ros2/work_1/build/interface'], 'cwd': '/mnt/sda2/code/ros2/work_1/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lixiang'), ('SSH_CLIENT', '10.121.137.35 59959 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lixiang'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/mnt/sda2/code/ros2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lixiang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '81'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lixiang/.local/bin:~/anaconda3/bin:/home/lixiang/anaconda3/bin:/home/lixiang/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin:/usr/local/cuda-11.0/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/lixiang/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/lixiang/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/mnt/sda2/code/ros2/work_1/build/interface'), ('CUDA_HOME', ':/usr/local/cuda-11.0'), ('CONDA_EXE', '/home/lixiang/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.121.137.35 59959 10.248.16.157 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/lixiang/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.291137] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.291246] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[0.291310] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.291380] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.291415] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.291462] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__type_support.h\n'}
+[0.291494] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__functions.h\n'}
+[0.291526] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__struct.h\n'}
+[0.291559] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__functions.c\n'}
+[0.291592] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/partol.h\n'}
+[0.291624] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg\n'}
+[0.291655] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.291687] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/library_path.sh\n'}
+[0.291724] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/library_path.dsv\n'}
+[0.291766] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[0.291846] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.291895] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.291953] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.291988] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__rosidl_typesupport_fastrtps_c.h\n'}
+[0.292032] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg\n'}
+[0.292064] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.292267] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.292402] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.292452] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.292507] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.292549] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/dds_fastrtps\n'}
+[0.292581] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.292612] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg\n'}
+[0.292642] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.292845] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.292975] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.293025] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.293078] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.293111] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__type_support.c\n'}
+[0.293152] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__rosidl_typesupport_introspection_c.h\n'}
+[0.293188] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg\n'}
+[0.293223] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.293445] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[0.293865] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[0.293979] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.294031] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.294085] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/partol.hpp\n'}
+[0.294134] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.294176] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__struct.hpp\n'}
+[0.294234] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__builder.hpp\n'}
+[0.294274] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__type_support.hpp\n'}
+[0.294305] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__traits.hpp\n'}
+[0.294337] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg\n'}
+[0.294368] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.294399] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface\n'}
+[0.294428] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv\n'}
+[0.294459] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail\n'}
+[0.294491] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.294522] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/include/interface/srv/detail/partol__type_support.cpp\n'}
+[0.294608] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.295009] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[0.295126] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/pythonpath.sh\n'}
+[0.295172] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[0.295220] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/__init__.py\n'}
+[0.300048] (-) TimerEvent: {}
+[0.323027] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/srv\n'}
+[0.323096] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/srv/_partol_s.c\n'}
+[0.323213] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/srv/_partol.py\n'}
+[0.323248] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/srv/__init__.py\n'}
+[0.323556] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.324171] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.324764] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.325176] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/lib/libinterface__python.so\n'}
+[0.325287] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/srv/Partol.idl\n'}
+[0.325398] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/srv/Partol.srv\n'}
+[0.325452] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/srv/Partol_Request.msg\n'}
+[0.325486] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/srv/Partol_Response.msg\n'}
+[0.325520] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[0.325569] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[0.325603] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[0.325636] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[0.325683] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/path.sh\n'}
+[0.325716] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/environment/path.dsv\n'}
+[0.325765] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/local_setup.bash\n'}
+[0.325803] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/local_setup.sh\n'}
+[0.325833] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/local_setup.zsh\n'}
+[0.325861] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/local_setup.dsv\n'}
+[0.325889] (interface) StdoutLine: {'line': b'-- Installing: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/package.dsv\n'}
+[0.326243] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[0.326521] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_generator_cExport.cmake\n'}
+[0.326570] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.326864] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.326908] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.327175] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[0.327224] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.327499] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_generator_cppExport.cmake\n'}
+[0.327797] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.327844] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.328130] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.328191] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.328243] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.328302] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.328367] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.328410] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.328471] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.328535] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.328595] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.328635] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[0.328674] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[0.328713] (interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/interface/share/interface/package.xml\n'}
+[0.330458] (interface) CommandEnded: {'returncode': 0}
+[0.393791] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[0.394494] (cpp_service) JobStarted: {'identifier': 'cpp_service'}
+[0.400042] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'cmake'}
+[0.400109] (-) TimerEvent: {}
+[0.400940] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'build'}
+[0.401096] (cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/sda2/code/ros2/work_1/build/cpp_service', '--', '-j24', '-l24'], 'cwd': '/mnt/sda2/code/ros2/work_1/build/cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lixiang'), ('SSH_CLIENT', '10.121.137.35 59959 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/sda2/code/ros2/work_1/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lixiang'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/mnt/sda2/code/ros2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lixiang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '81'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lixiang/.local/bin:~/anaconda3/bin:/home/lixiang/anaconda3/bin:/home/lixiang/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin:/usr/local/cuda-11.0/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/lixiang/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/lixiang/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/mnt/sda2/code/ros2/work_1/build/cpp_service'), ('CUDA_HOME', ':/usr/local/cuda-11.0'), ('CONDA_EXE', '/home/lixiang/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.121.137.35 59959 10.248.16.157 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/lixiang/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('CMAKE_PREFIX_PATH', '/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy')]), 'shell': False}
+[0.458439] (cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_control\x1b[0m\n'}
+[0.473268] (cpp_service) StdoutLine: {'line': b'[ 50%] Built target turtle_client\n'}
+[0.481386] (cpp_service) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.500219] (-) TimerEvent: {}
+[0.600453] (-) TimerEvent: {}
+[0.700762] (-) TimerEvent: {}
+[0.800988] (-) TimerEvent: {}
+[0.901323] (-) TimerEvent: {}
+[1.001637] (-) TimerEvent: {}
+[1.101986] (-) TimerEvent: {}
+[1.202302] (-) TimerEvent: {}
+[1.302639] (-) TimerEvent: {}
+[1.403014] (-) TimerEvent: {}
+[1.503333] (-) TimerEvent: {}
+[1.603646] (-) TimerEvent: {}
+[1.703973] (-) TimerEvent: {}
+[1.804294] (-) TimerEvent: {}
+[1.904606] (-) TimerEvent: {}
+[2.004923] (-) TimerEvent: {}
+[2.105239] (-) TimerEvent: {}
+[2.205556] (-) TimerEvent: {}
+[2.305856] (-) TimerEvent: {}
+[2.406115] (-) TimerEvent: {}
+[2.506407] (-) TimerEvent: {}
+[2.606705] (-) TimerEvent: {}
+[2.706998] (-) TimerEvent: {}
+[2.807318] (-) TimerEvent: {}
+[2.907548] (-) TimerEvent: {}
+[3.007858] (-) TimerEvent: {}
+[3.108160] (-) TimerEvent: {}
+[3.208454] (-) TimerEvent: {}
+[3.308757] (-) TimerEvent: {}
+[3.409064] (-) TimerEvent: {}
+[3.469047] (cpp_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[3.509244] (-) TimerEvent: {}
+[3.609557] (-) TimerEvent: {}
+[3.654426] (cpp_service) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[3.661382] (cpp_service) CommandEnded: {'returncode': 0}
+[3.678460] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'install'}
+[3.678581] (cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/sda2/code/ros2/work_1/build/cpp_service'], 'cwd': '/mnt/sda2/code/ros2/work_1/build/cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lixiang'), ('SSH_CLIENT', '10.121.137.35 59959 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/sda2/code/ros2/work_1/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.0/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lixiang'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/mnt/sda2/code/ros2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lixiang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '81'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lixiang/.local/bin:~/anaconda3/bin:/home/lixiang/anaconda3/bin:/home/lixiang/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin:/usr/local/cuda-11.0/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GSETTINGS_SCHEMA_DIR', '/home/lixiang/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/lixiang/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/mnt/sda2/code/ros2/work_1/build/cpp_service'), ('CUDA_HOME', ':/usr/local/cuda-11.0'), ('CONDA_EXE', '/home/lixiang/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.121.137.35 59959 10.248.16.157 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/sda2/code/ros2/work_1/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/lixiang/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('CMAKE_PREFIX_PATH', '/mnt/sda2/code/ros2/work_1/install/interface:/opt/ros/foxy')]), 'shell': False}
+[3.684304] (cpp_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.684772] (cpp_service) StdoutLine: {'line': b'-- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_control\n'}
+[3.686496] (cpp_service) StdoutLine: {'line': b'-- Set runtime path of "/mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_control" to ""\n'}
+[3.687010] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/lib/cpp_service/turtle_client\n'}
+[3.687171] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch\n'}
+[3.687249] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch/demo.launch.py\n'}
+[3.687327] (cpp_service) StdoutLine: {'line': b'-- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/launch/antion.launch.py\n'}
+[3.687403] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service\n'}
+[3.687482] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service\n'}
+[3.687560] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh\n'}
+[3.687643] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv\n'}
+[3.687691] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.sh\n'}
+[3.687768] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/environment/path.dsv\n'}
+[3.687855] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.bash\n'}
+[3.687904] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.sh\n'}
+[3.687952] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.zsh\n'}
+[3.688033] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/local_setup.dsv\n'}
+[3.688079] (cpp_service) StdoutLine: {'line': b'-- Installing: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.dsv\n'}
+[3.688154] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/ament_index/resource_index/packages/cpp_service\n'}
+[3.688237] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake\n'}
+[3.688307] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake\n'}
+[3.688351] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /mnt/sda2/code/ros2/work_1/install/cpp_service/share/cpp_service/package.xml\n'}
+[3.689279] (cpp_service) CommandEnded: {'returncode': 0}
+[3.709667] (-) TimerEvent: {}
+[3.722019] (cpp_service) JobEnded: {'identifier': 'cpp_service', 'rc': 0}
+[3.722730] (-) EventReactorShutdown: {}
