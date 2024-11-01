@@ -1,4 +1,5 @@
 /mnt/sda2/code/ros2/work_2/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+/mnt/sda2/code/ros2/work_2/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
 /mnt/sda2/code/ros2/work_2/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
 /mnt/sda2/code/ros2/work_2/install/fishbot_description/share/fishbot_description/config/diplay_rviz_config.rviz
 /mnt/sda2/code/ros2/work_2/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description

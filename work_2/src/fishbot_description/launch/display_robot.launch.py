@@ -6,14 +6,14 @@ import os
 def generate_launch_description():
     # 获取默认的urdf路径  
     urdf_package = get_package_share_directory('fishbot_description')
-    default_urdf_path = os.path.join(urdf_package, 'urdf', 'first_robot.urdf')
+    default_urdf_path = os.path.join(urdf_package, 'urdf', 'first_robot.xacro')
     rviz_config_path = os.path.join(urdf_package, 'config', 'diplay_rviz_config.rviz')
     # 声明一个urdf目录的参数，方便修改
     action_declare_arg_mode_path = launch.actions.DeclareLaunchArgument(
         name='model', default_value=str(default_urdf_path),description='加载的模型文件路径')
 
     # 通过文件路径，获取内容，并转换成参数值对象，以供传入 robot_state_publisher
-    substitutions_command_result = launch.substitutions.Command(['cat ', launch.substitutions.LaunchConfiguration('model')])
+    substitutions_command_result = launch.substitutions.Command(['xacro ', launch.substitutions.LaunchConfiguration('model')])
     robot_description_value =  launch_ros.parameter_descriptions.ParameterValue(substitutions_command_result, value_type=str)
 
     action_robot_state_publisher =  launch_ros.actions.Node(
